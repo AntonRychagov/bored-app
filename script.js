@@ -3,7 +3,7 @@ const selectButtonNode = document.querySelector("#btnSelect");
 selectButtonNode.addEventListener("click", addActivity);
 
 function addActivity() {
-  fetch("http://www.boredapi.com/api/activity/")
+  fetch("https://www.boredapi.com/api/activity/")
     .then((data) => data.json())
     .then((result) => {
       const activity = result.activity;
