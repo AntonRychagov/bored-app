@@ -12,7 +12,7 @@ function addActivity() {
     })
 
     .then(function(result) {
-      document.querySelector('#subtitle').classList.remove('loader');
+      setTimeout(() => document.querySelector('#subtitle').classList.remove('loader'), 500)
       
       const activity = result.activity;
       
