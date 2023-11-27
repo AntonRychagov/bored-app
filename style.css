@@ -115,6 +115,13 @@ h2 {
   cursor: pointer;
 }
 
+.button:hover {
+    border: 1px solid rgba(0, 148, 255, 1);
+    background: transparent;
+    color: rgba(0, 148, 255, 1);
+    transition: 0.5s;
+}
+
 @media (max-width: 1199px) {
   .container {
     width: 100%;
